@@ -1,0 +1,19 @@
+{% extends "CSapp/base.html" %}
+
+{% block content %}
+<div class="container spaced-top-5 black-bg">
+    <div class="row">
+        <div class="col">
+            <div class="row">
+                <h1 class="heading-title">Coolness. Culture. Collectibles.</h1>
+            </div>
+            <a href="/upload_product">
+                <button class="btn-custom spaced-top-2">Upload products here</button>
+            </a>
+        </div>
+        <div class="col">
+            {% include "CSapp/carousel.html" %}
+        </div>
+    </div>
+</div>
+{% endblock %}
