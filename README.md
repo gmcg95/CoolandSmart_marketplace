@@ -15,7 +15,7 @@ Cool&Smart Blog&Marketplace is a cool online webplace where users can find their
 
 clone this repository locally:
 
- git clone https://github.com/BDCristina/Sweets_Market_Place.git
+ git clone https://github.com/gmcg95/CoolandSmart_marketplace.git
 
 To install dependencies, run:
 
