@@ -1,0 +1,62 @@
+.navbar{
+    background-color: #FF2A00 !important;
+}
+
+.logout-button{
+    background-color: #FFC300;
+    border:#FFC300;
+}
+
+.heading-title {
+    color: #000000;
+    font-size: 88px;
+    font-weight: 700;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1em;
+    letter-spacing: -4px;
+    align-items: center;
+}
+
+.spaced-top-5 {
+    margin-top: 5em;
+}
+
+.spaced-top-2 {
+    margin-top: 2em;
+}
+
+.btn-custom {
+    font-weight: bold;
+    background-color: #FFC300;
+    padding: 10px 40px;
+    border-radius: 20px;
+    border: 2px solid #FFC300;
+    color: #822739;
+}
+
+.btn-custom:hover {
+    background-color: #FFFFFF;
+    color: #822739;
+}
+
+.btn-custom-reverse {
+    font-weight: bold;
+    background-color: #FFFFFF;
+    padding: 10px 40px;
+    border-radius: 20px;
+    border: 2px solid #FFC300;
+    color: #FFC300;
+}
+
+.btn-custom-reverse:hover {
+    background-color: #FFC300;
+    color: #615F5F;
+}
+
+.brand-logo {
+    color: #2A2782;
+    font-size: 1.6em;
+    font-weight: bold;
+}

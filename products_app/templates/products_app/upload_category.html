@@ -1,0 +1,15 @@
+<!-- products_app/templates/products_app/upload_category.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upload a category</title>
+</head>
+<body>
+    <h1>Upload a category</h1>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <input type="submit" value="Upload Category">
+    </form>
+</body>
+</html>

@@ -1,8 +1,19 @@
 from django import forms
-from .models.product import Product
+from .models import Message, OrderItem
 
 
-class ProductForm(forms.ModelForm):
+class MessageForm(forms.ModelForm):
     class Meta:
-        model = Product
-        fields = ['name', 'description', 'price', 'image', 'available_quantity', 'materials', 'rarity']
+        model = Message
+        fields = ['lastname', 'firstname', 'email', 'phone', 'message']
+
+
+class OrderItemForm(forms.ModelForm):
+    class Meta:
+        model = OrderItem
+        fields = ['product', 'quantity']
+
+    def __init__(self, *args, **kwargs):
+        super(OrderItemForm, self).__init__(*args, **kwargs)
+        self.fields['product'].widget.attrs['class'] = 'form-control'
+        self.fields['quantity'].widget.attrs['class'] = 'form-control'

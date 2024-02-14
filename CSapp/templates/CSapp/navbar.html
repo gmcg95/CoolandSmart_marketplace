@@ -9,18 +9,26 @@
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
           <a class="nav-link active" aria-current="page" href="/">Home</a>
-          <a class="nav-link active" aria-current="page" href="/products">Products</a>
-          <a class="nav-link active" aria-current="page" href="#">Contact</a>
+          <a class="nav-link active" aria-current="page" href="/products_app:products">Products</a>
+          <a class="nav-link active" aria-current="page" href="{% url 'CSapp:contact' %}">Contact</a>
           {% if user.is_authenticated %}
-            <a class="nav-link" href="/logout" title="Logout">
-              <i class="fa-solid fa-sign-out-alt"></i> <!-- Icon for logout -->
+            <a class="nav-link" href="{#}" title="Logout"> Hi, {{user.username}}
+              <i class="fas fa-user"></i>
+            </a>
+            <form class="nav-link" action="{% url 'logout' %}" method="POST">
+              {% csrf_token %}
+              <button class="logout-button" type="submit">
+                <i class="fas fa-sign-out-alt"></i>
+              </button>
+            </form>
+            <a class="nav-link" href="{% url 'CSapp:shopping_cart' %}" title="Cart">
+              <i class="fa-solid fa-shopping-cart"></i>
             </a>
           {% else %}
-            <a class="nav-link" href="/login" title="Login">
-              <i class="fa-solid fa-sign-in-alt"></i> <!-- Icon for login -->
+            <a class="nav-link" href="{% url 'accounts_app:login' %}" title="Login">
+              <i class="fa-solid fa-sign-in-alt"></i>
             </a>
           {% endif %}
-          <a class="nav-link" href="/cart"><i class="fa-solid fa-basket-shopping"></i></a>
         </div>
       </div>
     </div>
