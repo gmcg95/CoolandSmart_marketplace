@@ -6,7 +6,7 @@ Cool&Smart Blog&Marketplace is a web application/online shop with cool and colle
 Cool&Smart Blog&Marketplace is a cool online web-place where users can find their most desirable and cool items.
 
 
-![CS frontpage.png](..%2F..%2F..%2FOneDrive%2FDesktop%2FCS%20frontpage.png)
+![img_1.png](img_1.png)
 
 
 
