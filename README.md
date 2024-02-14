@@ -34,8 +34,9 @@ Cool&Smart Blog&Marketplace is a cool online web-place where users can find thei
 8. Run the development server:\
     python manage.py runserver
 
-⇒ starting with "4.", the prompts needs to be executed in the terminal (Pycharm/Command Prompt)   
-    
+⇒ starting with "4.", the prompts needs to be executed in the terminal (Pycharm/Command Prompt).   
+  *also "3." should be executed in the Command Prompt after navigating (cd) in the desired local path.
+
     Usage
 
 1. Access the marketplace:\
