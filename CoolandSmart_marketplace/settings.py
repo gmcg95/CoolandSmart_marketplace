@@ -74,19 +74,6 @@ TEMPLATES = [
 WSGI_APPLICATION = 'CoolandSmart_marketplace.wsgi.application'
 
 
-# Database
-# https://docs.djangoproject.com/en/4.2/ref/settings/#databases
-
-# DATABASES = {       # mysql database setup
-#     "default": {
-#         "ENGINE": "django.db.backends.mysql",
-#         "NAME": "CSapp",
-#         "USER": "root",
-#         "PASSWORD": "Bloodius@1102!",
-#         "HOST": "localhost",
-#         "PORT": "3306",
-#     }
-# }
 DATABASES = {     # sqllite3 database setup
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',

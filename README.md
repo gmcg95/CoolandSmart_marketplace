@@ -48,3 +48,28 @@ Cool&Smart Blog&Marketplace is a cool online web-place where users can find thei
     Browse through the marketplace, add/remove products, manage users, etc.
 4. Note that to add/delete products to/from cart and sent orders you need to create first a user and to be logged.
 
+
+    Stucture and functionality
+
+ **CoolandSmart_marketplace** is the main project package.
+    Here we configure the paths/urls from the other implemented apps in the project, the database, login and logout redirects, cookies, installing apps and other useful settings.
+
+ **CSapp** is the app in which was developed the CRUD methods along with the frontend response (what every button do), also the frontend 'looks' are defined and connected with the views.py and urls.py through the html templates we find here.
+    We find here functionalities like: create order, add to cart and delete product with login required (we used here decorator), checkout, shopping cart and also contact and home view.
+
+ **products_app** have python files, templates as for CSapp and accounts_app, but because the web-application is linked to a database, it is necessary to have the models package in which we define the attributes for the models (necessary for the rows and columns of the tables in the database)
+    in this category, we see developed, the view for the products, the upload for products, products details, categories, manufacturers etc.
+
+ **accounts_app** have the register, login and profile functionalities.
+    Again, we used, as for the other developed apps in this web-application, python files which are connected with the html templates.
+
+**other files** we find in the project are:
+    static folder, in which we find the css file for styling the frontend interface\
+    images for carousel functionality\
+    javascript file used for the deletion of the products and cookies\
+    requirements.txt in which are the dependencies that are required to install for the project to run without problems\
+    readme.md file in which the project is presented and installation and usage directions/suggestions are made.
+    manage.py, the file that is used for running the project
+    database file
+    gitignore file
+ 

@@ -15,7 +15,7 @@
             <a class="nav-link" href="{#}" title="Logout"> Hi, {{user.username}}
               <i class="fas fa-user"></i>
             </a>
-            <form class="nav-link" action="{% url 'logout' %}" method="POST">
+            <form class="nav-link" action="{% url 'accounts_app:logout' %}" method="POST">
               {% csrf_token %}
               <button class="logout-button" type="submit">
                 <i class="fas fa-sign-out-alt"></i>
