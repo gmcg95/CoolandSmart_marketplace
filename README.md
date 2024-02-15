@@ -35,7 +35,7 @@ Cool&Smart Blog&Marketplace is a cool online web-place where users can find thei
     python manage.py runserver
 
 ⇒ starting with "4.", the prompts needs to be executed in the terminal (Pycharm/Command Prompt).   
-  *also "3." should be executed in the Command Prompt after navigating (cd) in the desired local path.
+  *also "3." should be executed in the Command Prompt after navigating (cd) in the desired local path.\
   ** to use git command for "3." you also need to have git(github) installed
 
     Usage
