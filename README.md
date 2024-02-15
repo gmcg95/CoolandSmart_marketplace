@@ -55,7 +55,8 @@ Cool&Smart Blog&Marketplace is a cool online web-place where users can find thei
     Here we configure the paths/urls from the other implemented apps in the project, the database, login and logout redirects, cookies, installing apps and other useful settings.
 
  **CSapp** is the app in which was developed the CRUD methods along with the frontend response (what every button do), also the frontend 'looks' are defined and connected with the views.py and urls.py through the html templates we find here.\
-    We find here functionalities like: create order, add to cart and delete product with login required (we used here decorator), checkout, shopping cart and also contact and home view.
+    We find here functionalities like: create order, add to cart and delete product with login required (we used here decorator), checkout, shopping cart and also contact and home view.\
+    In this app we, as well, have models which define the view and registration in the database. We have models for order, order-item and message (contact) functionality. 
 
  **products_app** have python files, templates as for CSapp and accounts_app, but because the web-application is linked to a database, it is necessary to have the models package in which we define the attributes for the models (necessary for the rows and columns of the tables in the database)\
     In this category, we see developed, the view for the products, the upload for products, products details, categories, manufacturers etc.
