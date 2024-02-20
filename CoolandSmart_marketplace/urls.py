@@ -21,11 +21,11 @@ from django.conf.urls.static import static
 
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('', include('CSapp.urls')),
-    path('', include('accounts_app.urls')),
-    path('', include('products_app.urls')),
-    path('', include('django.contrib.auth.urls')),
+    path('admin/', admin.site.urls),                  # admin
+    path('', include('CSapp.urls')),                  # CSapp URLs
+    path('', include('accounts_app.urls')),           # accounts_app URLs 
+    path('', include('products_app.urls')),           # products_app URLs
+    path('', include('django.contrib.auth.urls')),    # Django authentication URLs
 ]
 if settings.DEBUG:  # verify if the project run in debug mode; helps with the errors management
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)    # includes the urls for media files
