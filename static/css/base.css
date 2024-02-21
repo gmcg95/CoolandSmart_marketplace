@@ -3,8 +3,8 @@
 }
 
 .logout-button{
-    background-color: #ff00f7;
-    border:#ff00f7;
+    background-color: #FF00F7;
+    border:#FF00F7;
 }
 
 .heading-title {
@@ -29,29 +29,29 @@
 
 .btn-custom {
     font-weight: bold;
-    background-color: #ff8c00;
+    background-color: #FF8C00;
     padding: 10px 40px;
-    border: 2px solid #ff8c00;
+    border: 2px solid #FF6C00;
     color: #822739;
 }
 
 .btn-custom:hover {
     background-color: #FFFFFF;
     color: #822739;
-}#ff8c00
+}
 
 .btn-custom-reverse {
     font-weight: bold;
     background-color: #FFFFFF;
     padding: 10px 40px;
     border-radius: 10px;
-    border: 2px solid #87160e;
-    color: #87160e;
+    border: 2px solid #87160E;
+    color: #87160E;
 }
 
 .btn-custom-reverse:hover {
-    background-color: #ff8c00;
-    color: #523b3b;
+    background-color: #FF8C00;
+    color: #523B3B;
 }
 
 .brand-logo {
