@@ -69,8 +69,8 @@ Cool&Smart Blog&Marketplace is a cool online web-place where users can find thei
     images for carousel functionality\
     javascript file used for the deletion of the products and cookies\
     requirements.txt in which are the dependencies that are required to install for the project to run without problems\
-    readme.md file in which the project is presented and installation and usage directions/suggestions are made.
-    manage.py, the file that is used for running the project
-    database file
+    readme.md file in which the project is presented and installation and usage directions/suggestions are made\
+    manage.py, the file that is used for running the project\
+    database file\
     gitignore file
  
