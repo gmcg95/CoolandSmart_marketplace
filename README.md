@@ -67,12 +67,13 @@ Cool&Smart Blog&Marketplace is a cool online web-place where users can find thei
     Again, we used, as for the other developed apps in this web-application, python files which are connected with the html templates.
 
 **other files** we find in the project are:\
-    static folder, in which we find the css file for styling the frontend interface\
-    images for carousel functionality\
-    javascript file used for the deletion of the products and cookies\
-    requirements.txt in which are the dependencies that are required to install for the project to run without problems\
-    readme.md file in which the project is presented and installation and usage directions/suggestions are made\
-    manage.py, the file that is used for running the project\
-    database file\
-    gitignore file
+    **static folder**, in which we find:\
+      1. the css file for styling the frontend interface\
+      2. images for carousel functionality\
+      3. javascript file used for the deletion of the products and cookies\
+    **requirements.txt** in which are the dependencies that are required to install for the project to run without problems\
+    **readme.md** file in which the project is presented and installation and usage directions/suggestions are made\
+    **manage.py**, the file that is used for running the project\
+    **database file**\
+    **gitignore file**
  
