@@ -17,7 +17,7 @@ Cool&Smart Blog&Marketplace is a cool online web-place where users can find thei
 ![image](https://github.com/gmcg95/CoolandSmart_marketplace/assets/145259154/83ef995b-7ea9-449c-9879-8cc6c808197a)
   
 
-    Download and Install
+      Download and Install
 
 1. Install Pycharm Community Edition:		
     https://www.jetbrains.com/pycharm/download/
@@ -40,7 +40,7 @@ Cool&Smart Blog&Marketplace is a cool online web-place where users can find thei
   *also "3." should be executed in the Command Prompt after navigating (cd) in the desired local path.\
   ** to use git command for "3." you also need to have git(github) installed
 
-    Usage
+        Usage
 
 1. Access the marketplace:\
     Open your web browser and navigate (or click the link from terminal after **runserver**) to http://localhost:8000 (http://127.0.0.1:8000/)
@@ -51,7 +51,7 @@ Cool&Smart Blog&Marketplace is a cool online web-place where users can find thei
 4. Note that to add/delete products to/from cart and sent orders you need to create first a user and to be logged.
 
 
-    Stucture and functionality
+        Stucture and functionality
 
  **CoolandSmart_marketplace** is the main project package.\
     Here we configure the paths/urls from the other implemented apps in the project, the database, login and logout redirects, cookies, installing apps and other useful settings.
