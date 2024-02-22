@@ -6,14 +6,16 @@ Cool&Smart Blog&Marketplace is a web application/online shop with cool and colle
 Cool&Smart Blog&Marketplace is a cool online web-place where users can find their most desirable and cool items.
 
 
-![img_1.png](img_1.png)
+![image](https://github.com/gmcg95/CoolandSmart_marketplace/assets/145259154/b6e1ba8e-cd3f-47cb-a57a-ad75f5f5e3ba)
 
 
 
-![image](https://github.com/gmcg95/CoolandSmart_marketplace/assets/145259154/b074468d-851d-4c7d-9772-674d8e3c9a35)
+![image](https://github.com/gmcg95/CoolandSmart_marketplace/assets/145259154/ff378d1f-4580-4046-977c-83c8c481396d)
 
 
-![img.png](img.png)   
+
+![image](https://github.com/gmcg95/CoolandSmart_marketplace/assets/145259154/83ef995b-7ea9-449c-9879-8cc6c808197a)
+  
 
     Download and Install
 
