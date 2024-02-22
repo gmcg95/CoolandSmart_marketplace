@@ -51,7 +51,7 @@ Cool&Smart Blog&Marketplace is a cool online web-place where users can find thei
 4. Note that to add/delete products to/from cart and sent orders you need to create first a user and to be logged.
 
 
-        Stucture and functionality
+         Stucture and functionality
 
  **CoolandSmart_marketplace** is the main project package.\
     Here we configure the paths/urls from the other implemented apps in the project, the database, login and logout redirects, cookies, installing apps and other useful settings.
